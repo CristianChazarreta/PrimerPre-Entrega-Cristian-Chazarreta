@@ -1,5 +1,5 @@
 .active{
-    background-color: #e9c4c4;
+    background-color: #ff0000;
 }
 
 nav {
@@ -12,8 +12,16 @@ nav {
     top: 0;
 }
 
+
+div .title{
+    background-color: #7c1d1d;
+    font-size: xx-large;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
 nav .logo{
-    background-color: #000000;
     width: 150px;
     border-radius: 15px;
 
@@ -41,7 +49,7 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-    background-color:#172554 ;
+    background-color:#3052c0 ;
 }
 
 nav .menu {

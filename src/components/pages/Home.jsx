@@ -1,6 +1,4 @@
-import React from "react";
-import "../Navbar.css";
-
-export const Home = () => {
-  return <h1>Home</h1>;
-};
+export * from "./Nosotros";
+export * from "./Contacto";
+export * from "./Home";
+export * from "./Productos";

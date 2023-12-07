@@ -11,6 +11,8 @@ export const Navbar = () => {
      <img className="logo" src="https://static.vecteezy.com/system/resources/previews/001/188/562/non_2x/fire-png.png"alt="" 
   
      />
+
+<div className="title"><h1>Matafuegos Drago</h1></div>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
         <span></span>
@@ -21,13 +23,13 @@ export const Navbar = () => {
           <NavLink to="/Home">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/about">Nosotros</NavLink>
+          <NavLink to="/Nosotros">Nosotros</NavLink>
         </li>
         <li>
-          <NavLink to="/services">Productos</NavLink>
+          <NavLink to="/Productos">Productos</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contacto</NavLink>
+          <NavLink to="/Contacto">Contacto</NavLink>
         </li>
       </ul>
     </nav>
